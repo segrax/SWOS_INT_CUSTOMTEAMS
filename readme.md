@@ -7,10 +7,10 @@ There is no parameters, edit the scripts to change settings.
 ## Read.php
 At the start of the script, you’ll find two blocks of code:
 
-- NATS Block: This is for reading from the larger NATS file, which contains league and other game-related details.
-- CUST Block: This is for reading the CUST file, which focuses on team-specific data (excluding the TEAM header).
+- NATS: This is for reading from the larger NATS file, which contains league and other game-related details.
+- CUST: This is for reading the CUST file, which focuses on team-specific data (excluding the TEAM header).
 
-  Simplfy comment out the 2nd block to read from NATS
+  Simplfy comment out the CUSTOM block to read from NATS
   
 ```php
 // NATS
